@@ -1,0 +1,57 @@
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python virtual environments
+venv/
+env/
+*.venv/
+.venv/
+.venvrc
+
+# Downloaded libraries and dependencies
+lib/
+libs/
+bin/
+include/
+target/
+*.egg-info/
+*.egg
+*.whl
+*.pyz
+*.pyzw
+
+# Project-specific directories and files
+database/youtube_lbry.db
+download_archive/
+app.log
+
+# Environment-specific files
+*.env
+.env
+.env.*
+
+# Ignore config.ini if it contains sensitive information
+config.ini
+
+# Editor-specific files
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+
+# Ignore any local development files that might not be relevant to others
+local_settings.py
+settings_local.py
+
+# Ignore system and temporary files
+Thumbs.db
+desktop.ini
+*.tmp
+.DS_Store
+
+# Ignore compiled JavaScript
+*.js.map
+*.js.lprof
