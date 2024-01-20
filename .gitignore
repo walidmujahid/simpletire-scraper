@@ -1,3 +1,9 @@
+data/
+.db
+.json
+.csv
+.log
+
 # Compiled Python files
 __pycache__/
 *.pyc
