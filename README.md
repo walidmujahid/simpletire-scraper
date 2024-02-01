@@ -1,7 +1,24 @@
-# Scraping Tires from SimpleTire.com
+# Scraping Products from SimpleTire.com - [![version](https://img.shields.io/badge/version-0.5.0-yellow.svg)](https://semver.org)
 
 ## Overview
 This Python script is designed to scrape tire size data and product details from a https://simpletire.com/. It utilizes web scraping techniques to extract data dynamically, handling pagination, and network traffic monitoring to retrieve necessary data segments. The data is then saved locally in JSON format and can be processed further into a CSV file.
+
+The CSV contains the following fields:
+- searched_tire_size
+- tire_size
+- brand,
+- product_name
+- price
+- model
+- spec_width
+- spec_ratio
+- spec_inflatable_pressure
+- spec_tread_depth
+- spec_width_range
+- spec_sidewall
+- spec_tread_width
+- side_tread_image_url
+- product_link
 
 ## Features
 - **Dynamic Data Extraction**: Retrieves tire size data and product details dynamically.
